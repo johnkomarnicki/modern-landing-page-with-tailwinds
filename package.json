@@ -1,0 +1,23 @@
+{
+  "name": "modern-landing-page-with-tailwinds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwinds": "tailwind build src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnkomarnicki/modern-landing-page-with-tailwinds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnkomarnicki/modern-landing-page-with-tailwinds/issues"
+  },
+  "homepage": "https://github.com/johnkomarnicki/modern-landing-page-with-tailwinds#readme",
+  "devDependencies": {
+    "tailwindcss": "^2.1.4"
+  }
+}
