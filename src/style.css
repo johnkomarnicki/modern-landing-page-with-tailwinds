@@ -1,6 +1,8 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 .btn {
   @apply shadow-md py-3 px-6 rounded-md transition duration-300;
@@ -11,28 +13,5 @@
 }
 
 .btn-white {
-  @apply bg-bookmark-lynx-white;
+  @apply bg-bookmark-white;
 }
-
-.btn-red {
-  @apply bg-bookmark-red;
-}
-
-.btn-purple:hover {
-  background-color: rgba(82, 103, 223, 0.8);
-}
-
-.btn-white:hover {
-  background-color: #c2c2c2cc;
-  @apply text-white;
-}
-
-.card {
-  @apply flex flex-col rounded-md shadow-md;
-}
-
-.faq-item {
-  @apply flex items-center border-b py-4;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");

@@ -2,17 +2,17 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    fontFamily: {
-      Poppins: ["Poppins, sans-serif"],
-    },
     extend: {
       colors: {
         "bookmark-purple": "#5267DF",
         "bookmark-red": "#FA5959",
-        "bookmark-dark-blue": "#242A45",
-        "bookmark-light-grey": "#9194A2",
-        "bookmark-lynx-white": "#f7f7f7",
+        "bookmark-blue": "#242A45",
+        "bookmark-grey": "#9194A2",
+        "bookmark-white": "#f7f7f7",
       },
+    },
+    fontFamily: {
+      Poppins: ["Poppins, sans-serif"],
     },
     container: {
       center: true,
